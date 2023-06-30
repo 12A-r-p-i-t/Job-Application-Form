@@ -1,0 +1,102 @@
+.grid-container {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background-color: lavender;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1.5fr 1fr 1fr 1fr; 
+    column-gap: 10px;
+    row-gap: 8px;
+    width: 50%; 
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.address{
+    grid-row-start: 4;
+    grid-col-start: 1; 
+    grid-column-end: span 2;
+}
+
+.address-width {
+    width: 100%;
+}
+
+.first-name {
+    margin-left: 5%; 
+    margin-right: 5%; 
+    margin-top: 5%;
+}
+
+.last-name {
+    margin-left: 5%; 
+    margin-right: 5%; 
+    margin-top: 5%;
+}
+
+.email {
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.job-role {
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.address {
+    margin-left: 2.5%; 
+    margin-right: 2.5%;
+}
+
+.city {
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.pincode {
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.startdate {
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.upload {
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.submitbutton {
+    grid-row-start: 7;
+    grid-col-start: 1; 
+    grid-column-end: span 2;
+    place-self: center;
+    margin-bottom: 2.5%;
+}
+
+.heading {
+    grid-row-start: 1;
+    grid-col-start: 1; 
+    grid-column-end: span 2;
+    margin-top: 7%; 
+    margin-left: 2.5%
+}
+
+@media (max-width: 940px) {
+    .grid-container {
+        width: 80%; 
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 640px) {
+    .grid-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

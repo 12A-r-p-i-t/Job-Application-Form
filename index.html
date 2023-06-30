@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="grid-container"> 
+        <div class="heading">
+            <h5>Job Application Form (Web)</h5>
+        </div>
+        <div class="first-name">
+            <label for="First-Name" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="first-name" /> 
+        </div>
+        <div class="last-name">
+            <label for="Last-Name" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="last-name" />
+        </div>
+        <div class="email">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email" /> 
+        </div>
+        <div class="job-role">
+            <label for="Job-Role" class="form-label">Job Role</label>
+            <select class="form-control" id="job_role" name="job_role">
+                <option value="">Select Job Role</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="full_stack">Full Stack Developer</option>
+                <option value="ui_ux">UI UX Designer</option>
+              </select>
+        </div>
+        <div class="address">
+            <label for="inputEmail4" class="form-label">Enter Address</label>
+            <textarea class="address-width" rows="3"></textarea>
+        </div>
+        <div class="city">
+            <label for="inputEmail4" class="form-label">City</label>
+            <input type="email" class="form-control" id="inputEmail4" /> 
+        </div>
+        <div class="pincode">
+            <label for="inputEmail4" class="form-label">Pincode</label>
+            <input type="email" class="form-control" id="inputEmail4" /> 
+        </div>
+        <div class="startdate">
+            <label for="inputEmail4" class="form-label">Start Date</label>
+            <input type="date" class="form-control" id="date" /> 
+        </div>
+        <div class="upload">
+            <label for="inputEmail4" class="form-label">Upload Your CV</label>
+            <input type="file" id="upload" name="upload" class="form-control" /> 
+        </div>
+        <div class="submitbutton">
+            <button type="button" class="btn btn-danger">Apply Now</button>
+        </div>
+    </div>
+</body>
+</html>
